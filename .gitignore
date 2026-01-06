@@ -1,0 +1,5 @@
+# Virtual environments
+edge_ai/
+.venv/
+env/
+venv/
