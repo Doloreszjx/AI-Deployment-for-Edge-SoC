@@ -38,4 +38,4 @@ date_str = datetime.now().strftime("%Y-%m-%d %H:%M")
 with open(file_name, 'a', encoding='utf-8') as f:
     f.write(f'ONNX Info -- 创建时间为{date_str} \n')
     f.write('Device: CPU \n')
-    f.write(f'Inference Time: {(end_time - start_time)*1000:.2f} ms')
+    f.write(f'Inference Time: {(end_time - start_time)*1000:.2f} ms \n')
